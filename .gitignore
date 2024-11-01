@@ -1,0 +1,41 @@
+# Node.js dependencies
+node_modules/
+
+# Compiled output
+dist/
+build/
+
+# Environment variables
+.env
+
+# TypeScript artifacts
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Test coverage
+coverage/
+*.lcov
+
+# Backup files
+*.bak
+*.tmp
+
+# npm-debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeORM migration files (optional)
+src/migrations/*.js
+src/migrations/*.js.map
